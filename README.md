@@ -365,17 +365,17 @@ colorbar;
 
 ## Output Plots
 
-**_FFT1_**
+**FFT1**
 <p align = "center">
-  <img src="results/fft1.jpg" width="562" height="506">
+  <img src="results/FFT1.png" width="562" height="506">
 </p>
 
-**_FFT2_**
+**FFT2**
 <p align = "center">
-  <img src="results/fft2.jpg" width="562" height="506">
+  <img src="results/FFT2.png" width="562" height="506">
 </p>
 
-**_CFAR RDM_**
+**CFAR RDM**
 <p align = "center">
-  <img src="results/cfar.jpg" width="562" height="506">
+  <img src="results/CFAR.png" width="562" height="506">
 </p>
