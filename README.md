@@ -367,15 +367,15 @@ colorbar;
 
 **_FFT1_**
 <p align = "center">
-  <img src="results/fft1.jpg">
+  <img src="results/fft1.jpg" width="562" height="506">
 </p>
 
 **_FFT2_**
 <p align = "center">
-  <img src="results/fft2.jpg">
+  <img src="results/fft2.jpg" width="562" height="506">
 </p>
 
 **_CFAR RDM_**
 <p align = "center">
-  <img src="results/cfar.jpg">
+  <img src="results/cfar.jpg" width="562" height="506">
 </p>
