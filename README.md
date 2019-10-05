@@ -74,29 +74,29 @@ colorbar;
 
 ## Selection of Training, Guard cells and offset
 
-* The number of training cells is decided based on the environment. In a dense traffic scenario, fewer training cells should be used as closely spaced targets can impact the noise estimate.
- Number of Training Cells in range dimension:
- ```
- Tr = 10;
- ```
- Number of Training Cells in doppler dimension:
- ```
- Td = 8;
- ```
-* The purpose of the guard cells is to avoid the target signal from leaking into the training cells, which can adversely affect the noise estimate. The number of guards cells is decided based on the leakage of the target signal out of the cell and the test. If the cell target size is large, they often get into surrounding bins.
- Number of Guard Cells in range dimension:
- ```
- Gr = 4;
- ```
- Number of Guard Cells in doppler dimension:
- ```
- Gd = 4;
- ```
-* The offset value is used to scale the noise threshold. Principle of the offset selection: If the signal strength is defined in logarithmic form then add this offset value to the average noise estimate, else multiply it.
- Offset the threshold by SNR value in dB:
- ```
- offset = 1.4;
- ```
+The number of training cells is decided based on the environment. In a dense traffic scenario, fewer training cells should be used as closely spaced targets can impact the noise estimate.
+* Number of Training Cells in range dimension:
+```
+Tr = 10;
+```
+* Number of Training Cells in doppler dimension:
+```
+Td = 8;
+```
+The purpose of the guard cells is to avoid the target signal from leaking into the training cells, which can adversely affect the noise estimate. The number of guards cells is decided based on the leakage of the target signal out of the cell and the test. If the cell target size is large, they often get into surrounding bins.
+* Number of Guard Cells in range dimension:
+```
+Gr = 4;
+```
+* Number of Guard Cells in doppler dimension:
+```
+Gd = 4;
+```
+The offset value is used to scale the noise threshold. Principle of the offset selection: If the signal strength is defined in logarithmic form then add this offset value to the average noise estimate, else multiply it.
+* Offset the threshold by SNR value in dB:
+```
+offset = 1.4;
+```
 
 ## Steps taken to suppress the non-thresholded cells at the edges
 
@@ -367,15 +367,15 @@ colorbar;
 
 **_FFT1_**
 <p align = "center">
-  <img src="fft1.png">
+  <img src="results/fft1.jpg">
 </p>
 
 **_FFT2_**
 <p align = "center">
-  <img src="fft2.png">
+  <img src="results/fft2.jpg">
 </p>
 
 **_CFAR RDM_**
 <p align = "center">
-  <img src="cfar.jpg">
+  <img src="results/cfar.jpg">
 </p>
